@@ -1,0 +1,10 @@
+#quote-box {
+  margin-top: 100px;
+  text-align: center;
+  border: solid black;
+  border-radius: 5px;
+}
+
+#text {
+  text-align: center;
+}
