@@ -3,8 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Random Quote Generator</title>
-</head>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/quote.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
   <div class="container">
   <div id="quote-box" class="container-fluid">
@@ -21,7 +27,13 @@
 	    <button id="new-quote" class="btn btn-block btn-primary" type="submit" name="quoteButton">Get Random Quote!</button>
     </div>
     <div class="col-sm-2">
-        <button id="tweet-quote" class="btn btn-block">Tweet Quote!</button>
+        <a id="tweet-quote" class="twitter-share-button" data-size="large" href="#">
+          <button class="btn btn-block">
+            <i class="fa fa-twitter-square" aria-hidden="true">
+             <span class="label" id="l">Tweet</span>
+            </i>
+          </button>
+        </a>
       </div>
 	  </div>
     </div>
